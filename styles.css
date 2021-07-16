@@ -5,7 +5,27 @@ body{
     padding: 0px;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#ee6c4d;
+    border-radius: 50px;
+    height: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:rgb(209, 90, 60);
+}
+
 
 .navbar{
     height: 50px;
@@ -34,6 +54,12 @@ body{
     color: white;
 }
 
+@keyframes animatefromtop {
+    0%{margin-top: -100vh;}
+    100%{margin-top: 0vh;}
+    
+}
+
 #navbar a{
     font-family: 'Heebo', sans-serif;
     font-weight: bold;
@@ -47,6 +73,8 @@ body{
     -webkit-text-fill-color: transparent;
     background-size: 200% 100%;
     background-position: 100%;
+    animation-name: animatefromtop;
+    animation-duration: 2s;
     transition: background-position 275ms ease;
 }
 
@@ -88,7 +116,11 @@ body{
     width: 50px;
     padding: 5px;
     padding-left: 0px;
+}
 
+#images a{
+    color: white;
+    fill: white;
 }
 
 #social-links{
@@ -103,23 +135,29 @@ body{
     animation-duration: 3s;
 }
 
+
 .social-images:first-child{
     margin-top: 25px;
 }
 
 .social-images{
+    position: relative;
     display: block;
     width: 30px;
     margin-bottom: 25px;
     height: 30px;
     margin-left: auto;
     margin-right: auto;
+    top: 0px;
+    transition: top ease 0.5s;
+
 }
 
 
 .social-images:hover{
     fill:#ee6c4d;
     cursor: pointer;
+    top: -2px;
 }
 
 #hero{
@@ -182,10 +220,7 @@ body{
     width: 100%;
 }
 
-#about{
-    background-color:#253237;
-    height: 100vh;
-}
+
 
 .flip {
     margin-top: 50px;
@@ -324,14 +359,344 @@ body{
     transform: rotate(6deg) translate(100px, -18px);
 }
 
+.splitter{
+    height: 50px;
+}
+
+.about{
+    float: right;
+    width: 90vw;
+    background-color:#253237;
+}
+
 
 .about-title{
+    color: white;
     font-family: 'Heebo', sans-serif;
     font-weight: bold;
     font-size: 50px;
-    margin-left: 450px;
 }
 
-.splitter{
+#about-title-channel{
+    float: left;
+    position: relative;
+    text-align: center;
+    height: 155vh;
+    width: 300px;
+}
+
+#main-about{
+    margin-right: 25px;
+    float: right;
+    width: 1000px;
+    min-width: 250px;
+}
+
+#vl3 {
+    margin-top: 25px;
+    width: 150px;
+    border-bottom: 2px solid #ee6c4d;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile{
     height: 200px;
+}
+
+#to-contain{
+    padding-right: 50px;
+    border-right: 2px #ee6c4d solid;
+    position: sticky;
+    top: 50px;
+}
+
+.about-text{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    padding-right: 50px;
+    height: fit-content;
+    min-width: 600px;
+}
+
+#about-overall{
+    max-width: 1500px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.underline{
+    margin-left: 40px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    color:white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.highlight{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    color:#ee6c4d;
+    font-size: 25px;
+    text-decoration: underline white;
+    cursor: default;
+}
+
+#main-about ul{
+    margin-top: 35px;
+    margin-left: 40px;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+
+#main-about li{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+}
+
+#music{
+    height: 150vh;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+.music-title{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 125px;
+    text-align: center;
+}
+
+.spotify-link{
+    margin-top: 100px;
+    height: 30px;
+    line-height: 30px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spotify-link a{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    color: white;
+}
+
+.spotify-link a:hover{
+    color: #1ed760;
+}
+
+.spotify{
+    float: left;
+    height: 30px;
+    filter: invert(61%) sepia(82%) saturate(499%) hue-rotate(86deg) brightness(97%) contrast(82%);
+}
+
+#music-grid{
+    margin-top: 150px;
+    display: grid;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+#now-playing{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 75%;
+    height: 200px;
+    border-radius: 25px;
+    background:#202c31;
+    padding: 25px;
+    margin-bottom: 50px;
+    border:#ee6c4d 1px solid;
+}
+
+.now-playing-title{
+    position: absolute;
+    margin-bottom: 0px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    width: 800px;
+    margin-left: -75px;
+    margin-right: auto;
+    margin-top: -90px;
+}
+
+#album-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-left: 25px;
+    border-radius: 6px; 
+}
+
+.album-image-real{
+    height: 100%;
+    border-radius: 6px;
+}
+
+#song-name{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    width: 475px;
+    float: right;
+}
+
+#album-name{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 475px;
+    float: right;
+}
+
+#artist-name{
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+    width: 475px;
+    color:rgb(209, 90, 60);
+    float: right;
+}
+
+#top-artists{
+    height: fit-content;
+    padding-bottom: 50px;
+}
+
+.artist-title{
+    margin-bottom: 0px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.artist-overall{
+    margin-left: auto;
+    margin-right: auto;
+    background:#202c31;
+    padding: 25px;
+    margin-bottom: 0px;
+    border:#ee6c4d 1px solid;
+    border-radius: 25px;
+    height: 200px;
+    line-height: 200px;
+    top: 0px;
+    margin-top: 25px;
+    width: 75%;
+}
+
+.artist-name{
+    margin: 0;
+    float: right;
+    font-size: 30px;
+    width: 475px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.artist-image{
+    margin-left: 25px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.artist-link{
+    position: relative;
+    top: 0px;
+    transition: top ease 0.5s;
+}
+
+.artist-link:hover{
+    top: -5px;
+    cursor: pointer;
+}
+
+.center-text{
+    float: right;
+    width: 500px;
+    height: fit-content;
+    margin: 0;
+    margin-top: 80px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+} 
+
+#currently-listening{
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 1500px) {
+
+    #about-title-channel{
+        position: relative;
+        height: 200px;
+        width: 90vw;
+        margin-bottom: 75px;
+    }
+
+    #to-contain{
+        padding-right: 0px;
+        height: 200px;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: #ee6c4d 2px solid;
+        border-right: none;
+    }
+
+    .about-title{
+        float: left;
+        position: relative;
+        margin: 0;
+        top: 50%;
+        margin-right: 50px;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        vertical-align: center;
+    }
+
+    #main-about{
+        float: none;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        width: 80vw;
+    }
+
+    .about-text{
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        min-width: 0px;
+        padding-right: 20px;
+        height: fit-content;
+    }
 }
