@@ -11,16 +11,16 @@
 <h2> About Me: </h2>
 
 
-- 🔭 I’m currently working on Fill The Gapz
+- 🔭 I’m currently working on Fill The Gapz.
 
 
-- 🌱 I’m currently learning React and Electron
+- 🌱 I’m currently learning React and Electron.
   
   
-- 🎓 I'm currently studying Software Engineering at the University of Westminster
+- 🎓 I'm currently studying Software Engineering at the University of Westminster.
  
  
-- 👨‍💻 I first started coding 6 years ago in Python
+- 👨‍💻 I first started coding 6 years ago in Python.
 
 
 <h2> Skills: </h2>
