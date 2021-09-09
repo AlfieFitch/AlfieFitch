@@ -5,7 +5,7 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=AlfieFitch.AlfieFitch)
 
 </p>
-<div size='20px'> Hi! My name is Alfie. Thank You for taking the time to view my GitHub Profile :smile: 
+<div size='20px'> Hey, My name is Alfie, Thank You for taking the time to view my GitHub Profile!
 </div>
 
 <h2> About Me: </h2>
