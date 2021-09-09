@@ -15,6 +15,12 @@
 
 
 - 🌱 I’m currently learning React and Electron
+  
+  
+- 🎓 I'm currently studying Software Engineering at the University of Westminster
+ 
+ 
+- 👨‍💻 I first started coding 6 years ago in Python
 
 
 <h2> Skills: </h2>
