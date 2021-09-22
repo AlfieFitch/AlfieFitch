@@ -17,7 +17,7 @@
 - 🌱 I’m currently learning React and Electron.
   
   
-- 🎓 I'm currently studying Software Engineering.
+- 🎓 I'm currently studying BSc Software Engineering.
  
  
 - 👨‍💻 I first started coding 6 years ago in Python.
