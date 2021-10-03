@@ -1,6 +1,5 @@
 let api_key = 'BQA9iyhby94YEJfaMLTXvIEH6e_kAOCvEvvZyk2Jwgltak68MD0HWP-2wfqXDcQEYAmsEgpGqRiHjiYsApszfN-JQUWEdzkJb-QrAJXQy7IiJWS7BIyNFK-rSmOF5dEKrcOtqwtqFpDWtcUuRbaZ1pn2eFTJjugwUuBiOdcb9mHJXiwc91RRrY6PwTCwbhfKViA-FSn2wCVS8eOcQ0ZDNkb2BAyPUonnm-S8eHA0H_ARLqkqKBzTP0WIFTITGgdbDzkTi1WI6s2Y3TyPBLbIqzNMurirYsv43LT5TvvJRw-I'
 
-
 load_spotify();
 
 var prevScrollpos = window.pageYOffset;
@@ -15,9 +14,7 @@ window.onscroll = function() {
     } else {
         document.getElementById("navbar").style.top = "-50px";
     }
-
     prevScrollpos = currentScrollPos;
-
 }
 
 
@@ -49,18 +46,5 @@ function load_spotify(){
         artist_name = data.item.artists[0].name
         document.getElementById("artist-name").innerText = artist_name; 
     });
-    fetch('https://api.spotify.com/v1/me/top/artists?limit=1' , {
-        method: 'GET',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + api_key,
-        } 
-    })
-    .then(response => response.json())
-    .then(data => {
-        let finalhtml = "";
-        finalhtml = "<a class = 'artist-link' href='" + data.items[0].external_urls.spotify + "' target = '_blank'><div class = 'artist-overall'><img class = 'artist-image' src = '" + data.items[i].images[0].url + "'</img><h1 class = 'artist-name'>" + data.items[i].name + "</h1></div></a>";
-        document.getElementById("artist-grid").innerHTML = finalhtml;
-    })
 }
+
