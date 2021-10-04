@@ -11,6 +11,11 @@ body{
     -webkit-font-smoothing: antialiased;
 }
 
+.feedback:hover{
+    cursor: pointer;
+}
+
+
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -34,15 +39,31 @@ body{
     margin: 0px;
     padding: 0px;
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
     display: block;
-    transition: top 0.3s;
+    transition: top 0.5s;
     background: rgba( 37, 50, 55, 0.95 );
     backdrop-filter: blur( 6.0px );
     -webkit-backdrop-filter: blur( 6.0px );
     border-radius: 0px;
     z-index: 5;
+}
+
+#notification{
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+#notification h1{
+    font-family: heebo;
+    font-size: 18px;
+    background-color: #ee6c4d;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
 }
 
 .logo{
@@ -788,65 +809,41 @@ body{
 
 
 .project-logo-ftg{
+    padding: 0px;
     width: 75px;
-    margin-top: 75px;
-    margin-left: 140px;
     display: block;
-}
-
-.project-logo-PCA{
-    width: 75px;
-    margin-top: 75px;
-    margin-left: 145px;
-    display: block;
+    position: relative;
 }
 
 
-.project-logo-APP{
-    width: 75px;
-    margin-top: 58px;
-    margin-left: 145px;
-    display: block;
+.project-logo{
+    width: 100%;
 }
 
-.project-logo-AF{
-    width: 75px;
-    margin-top: 85px;
-    margin-left: 145px;
-    display: block;
+.the-logo{
+    padding: 0px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.info-over{
+    width: 350px;
+    align-content: center;
+    margin-top: 50px;
 }
 
 .alfie-title{
+    padding: 0px;
     color: white;
     font-family: 'Heebo', sans-serif;
     font-weight: bold;
     line-height: 100%;
     margin-top: 40px;
-    text-align: left;
-    margin-left: 87px;
-}
-
-.alfieb-title{
-    color: white;
-    font-family: 'Heebo', sans-serif;
-    font-weight: bold;
-    line-height: 100%;
-    margin-top: 40px;
+    width: 100%;
     text-align: center;
-    width: 420px;
-    margin-left: -30px;
 }
-
-.alfiea-title{
-    color: white;
-    font-family: 'Heebo', sans-serif;
-    font-weight: bold;
-    line-height: 100%;
-    margin-top: 40px;
-    text-align: left;
-    margin-left: 104px;
-}
-
 
 .neumorphism{
     margin-top: 50px;
@@ -863,7 +860,6 @@ body{
     height: 299px;
     float: right;
     margin-right: 0px;
-    margin-top: -142px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -889,6 +885,52 @@ body{
     grid-auto-rows: minmax(100px, auto);
 }
 
+.tag{
+    margin-top: 40px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #202c31;
+
+}
+
+.developed{
+    margin-top: 40px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #202c31;
+}
+
+.developed h1{
+    padding: 5px;
+    font-size: 12px;
+    font-family: heebo;
+    background-color: #1ed760;
+    border-radius: 6px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tag h1{
+    padding: 5px;
+    font-size: 12px;
+    font-family: heebo;
+    background-color: #ee6c4d;
+    border-radius: 6px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolioaftersplitter{
+    height: 200px;
+}
 
 
 @media only screen and (max-width: 1500px) {
@@ -937,3 +979,41 @@ body{
         height: fit-content;
     }
 }
+
+@media only screen and (max-width: 1170px) {
+
+    #to-contain-portfolio{
+        padding-left: 0px;
+        height: 200px;
+        border-bottom: #ee6c4d 2px solid;
+        border-left: none;
+        margin-top: 300px;
+        height: 150px;
+        position: relative;
+    }
+
+    #portfolio-title-channel{
+        float: none;
+        position: relative;
+        height: 100px;
+        width: 500px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #portfolio-title{
+        transform: rotate(-360deg);
+        position: relative;
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        min-width: 0px;
+        height: fit-content;
+    }
+
+    .projects{
+        margin-top: 150px;
+    }
+}
+
