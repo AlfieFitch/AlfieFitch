@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #253237;
     color: white;
@@ -5,8 +9,12 @@ body{
     padding: 0px;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    scroll-behavior: smooth;
 }
+
+.feedback:hover{
+    cursor: pointer;
+}
+
 
 ::-webkit-scrollbar {
     width: 7px;
@@ -26,21 +34,36 @@ body{
     background:rgb(209, 90, 60);
 }
 
-
 .navbar{
     height: 50px;
     margin: 0px;
     padding: 0px;
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
     display: block;
-    transition: top 0.3s;
+    transition: top 0.5s;
     background: rgba( 37, 50, 55, 0.95 );
     backdrop-filter: blur( 6.0px );
     -webkit-backdrop-filter: blur( 6.0px );
     border-radius: 0px;
     z-index: 5;
+}
+
+#notification{
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+#notification h1{
+    font-family: heebo;
+    font-size: 18px;
+    background-color: #ee6c4d;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
 }
 
 .logo{
@@ -91,7 +114,6 @@ body{
     color: white;
 }
 
-
 #vl {
     border-left: 2px solid #ee6c4d;
     height: 100px;
@@ -101,12 +123,10 @@ body{
     background-color: transparent;
 }
 
-
 @keyframes hideline {
     0%{margin-bottom: -1000vh;}
     100%{margin-bottom: 0px;}
 }
-
 
 #images{
     border-radius: 10px;
@@ -135,7 +155,6 @@ body{
     animation-duration: 3s;
 }
 
-
 .social-images:first-child{
     margin-top: 25px;
 }
@@ -152,7 +171,6 @@ body{
     transition: top ease 0.5s;
 
 }
-
 
 .social-images:hover{
     fill:#ee6c4d;
@@ -370,7 +388,6 @@ body{
     height: 1000px;
 }
 
-
 .about-title{
     color: white;
     font-family: 'Heebo', sans-serif;
@@ -382,7 +399,7 @@ body{
     float: left;
     position: relative;
     text-align: center;
-    height: 900px;
+    height: 940px;
     width: 300px;
 }
 
@@ -456,7 +473,6 @@ body{
     -webkit-columns: 2;
     -moz-columns: 2;
 }
-
 
 #main-about li{
     font-family: 'Heebo', sans-serif;
@@ -658,15 +674,19 @@ body{
 
 #portfoliosplitter{
     margin-top: 1px;
-    height: 1300px;
+    height: 1500px;
     width: 100px;
 }
 
 #portfolio{
-    height: 1000px;
-    max-width: 85vw;
     margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    margin-left: auto;
+    max-width: 1600px;
 }
+
+
 
 #portfolio-title{
     -webkit-transform: rotate(90deg); /* Safari and Chrome */
@@ -686,7 +706,7 @@ body{
     float: right;
     position: relative;
     text-align: center;
-    height: 900px;
+    height: 1425px;
     width: 200px;
     margin-right: 100px;
 }
@@ -791,10 +811,130 @@ body{
     color: #253237;
 }
 
-.laptop-mockup{
-    width: 50vw;
+
+.project-logo-ftg{
+    padding: 0px;
+    width: 75px;
+    display: block;
+    position: relative;
 }
 
+
+.project-logo{
+    width: 100%;
+}
+
+.the-logo{
+    padding: 0px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.info-over{
+    width: 600px;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.alfie-title{
+    padding: 0px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    line-height: 100%;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.neumorphism{
+    margin-top: 50px;
+    height: 300px;
+    width: 900px;
+    border-radius: 10px;
+    background: #202c31;
+    margin-left: auto;
+    margin-right: auto;
+    border: #ee6c4d 1px solid;
+}
+
+.phone-mockup{
+    height: 299px;
+    float: right;
+    margin-right: 0px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.ipad-mockup{
+    height: 298px;
+    float: right;
+    margin-right: 1px;
+    margin-top: -150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.hover:hover{
+    background-color: #1a2327;
+    cursor: pointer;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.tag{
+    margin-top: 40px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #202c31;
+
+}
+
+.developed{
+    margin-top: 40px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #202c31;
+}
+
+.developed h1{
+    padding: 5px;
+    font-size: 12px;
+    font-family: heebo;
+    background-color: #1ed760;
+    border-radius: 6px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tag h1{
+    padding: 5px;
+    font-size: 12px;
+    font-family: heebo;
+    background-color: #ee6c4d;
+    border-radius: 6px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolioaftersplitter{
+    height: 200px;
+}
 
 
 @media only screen and (max-width: 1500px) {
@@ -842,4 +982,55 @@ body{
         padding-right: 20px;
         height: fit-content;
     }
+
+    #to-contain-portfolio{
+        padding-left: 0px;
+        height: 200px;
+        border-bottom: #ee6c4d 2px solid;
+        border-left: none;
+        margin-top: 300px;
+        height: 150px;
+        position: relative;
+    }
+
+    #portfolio-title-channel{
+        float: none;
+        position: relative;
+        height: 100px;
+        width: 500px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #portfolio-title{
+        transform: rotate(-360deg);
+        position: relative;
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        min-width: 0px;
+        height: fit-content;
+    }
+
+    .projects{
+        margin-top: 150px;
+    }
+
+    .neumorphism{
+        width: 700px;
+    }
+
+    .info-over{
+        width: 350px;
+        align-content: center;
+        margin-top: 50px;
+    }
+
+    .projects{
+        margin-left: 115px;
+        width: 800px;
+    }
 }
+
+

@@ -1,6 +1,6 @@
 let api_key = 'BQA9iyhby94YEJfaMLTXvIEH6e_kAOCvEvvZyk2Jwgltak68MD0HWP-2wfqXDcQEYAmsEgpGqRiHjiYsApszfN-JQUWEdzkJb-QrAJXQy7IiJWS7BIyNFK-rSmOF5dEKrcOtqwtqFpDWtcUuRbaZ1pn2eFTJjugwUuBiOdcb9mHJXiwc91RRrY6PwTCwbhfKViA-FSn2wCVS8eOcQ0ZDNkb2BAyPUonnm-S8eHA0H_ARLqkqKBzTP0WIFTITGgdbDzkTi1WI6s2Y3TyPBLbIqzNMurirYsv43LT5TvvJRw-I'
 
-load_spotify();
+//load_spotify();
 
 var prevScrollpos = window.pageYOffset;
 
@@ -47,3 +47,4 @@ function load_spotify(){
         document.getElementById("artist-name").innerText = artist_name; 
     });
 }
+
