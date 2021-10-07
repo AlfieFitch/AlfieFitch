@@ -674,15 +674,19 @@ body{
 
 #portfoliosplitter{
     margin-top: 1px;
-    height: 1300px;
+    height: 1500px;
     width: 100px;
 }
 
 #portfolio{
+    margin-left: auto;
+    margin-right: auto;
     height: 1000px;
     margin-left: auto;
-    max-width: calc(100vw - 100px);
+    max-width: 1600px;
 }
+
+
 
 #portfolio-title{
     -webkit-transform: rotate(90deg); /* Safari and Chrome */
@@ -702,7 +706,7 @@ body{
     float: right;
     position: relative;
     text-align: center;
-    height: 900px;
+    height: 1425px;
     width: 200px;
     margin-right: 100px;
 }
@@ -829,7 +833,7 @@ body{
 
 
 .info-over{
-    width: 350px;
+    width: 600px;
     align-content: center;
     margin-top: 50px;
 }
@@ -848,7 +852,7 @@ body{
 .neumorphism{
     margin-top: 50px;
     height: 300px;
-    width: 700px;
+    width: 900px;
     border-radius: 10px;
     background: #202c31;
     margin-left: auto;
@@ -978,9 +982,6 @@ body{
         padding-right: 20px;
         height: fit-content;
     }
-}
-
-@media only screen and (max-width: 1170px) {
 
     #to-contain-portfolio{
         padding-left: 0px;
@@ -1015,5 +1016,21 @@ body{
     .projects{
         margin-top: 150px;
     }
+
+    .neumorphism{
+        width: 700px;
+    }
+
+    .info-over{
+        width: 350px;
+        align-content: center;
+        margin-top: 50px;
+    }
+
+    .projects{
+        margin-left: 115px;
+        width: 800px;
+    }
 }
+
 
