@@ -937,101 +937,7 @@ body{
 }
 
 
-@media only screen and (max-width: 1500px) {
 
-    #about-title-channel{
-        position: relative;
-        height: 200px;
-        width: 90vw;
-        margin-bottom: 75px;
-    }
-
-    #to-contain{
-        padding-right: 0px;
-        height: 200px;
-        width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-        border-bottom: #ee6c4d 2px solid;
-        border-right: none;
-    }
-
-    .about-title{
-        float: left;
-        position: relative;
-        margin: 0;
-        top: 50%;
-        margin-right: 50px;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        vertical-align: center;
-    }
-
-    #main-about{
-        float: none;
-        margin-right: 5vw;
-        margin-left: 5vw;
-        width: 80vw;
-    }
-
-    .about-text{
-        position: relative;
-        margin-top: 50px;
-        margin-bottom: 0px;
-        min-width: 0px;
-        padding-right: 20px;
-        height: fit-content;
-    }
-
-    #to-contain-portfolio{
-        padding-left: 0px;
-        height: 200px;
-        border-bottom: #ee6c4d 2px solid;
-        border-left: none;
-        margin-top: 300px;
-        height: 150px;
-        position: relative;
-    }
-
-    #portfolio-title-channel{
-        float: none;
-        position: relative;
-        height: 100px;
-        width: 500px;
-        height: 150px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #portfolio-title{
-        transform: rotate(-360deg);
-        position: relative;
-        margin-left: 0px;
-        margin-top: 50px;
-        margin-bottom: 0px;
-        min-width: 0px;
-        height: fit-content;
-    }
-
-    .projects{
-        margin-top: 150px;
-    }
-
-    .neumorphism{
-        width: 700px;
-    }
-
-    .info-over{
-        width: 350px;
-        align-content: center;
-        margin-top: 50px;
-    }
-
-    .projects{
-        margin-left: 115px;
-        width: 800px;
-    }
-}
 
 #experience-overall{
     margin-top: 850px;
@@ -1044,7 +950,7 @@ body{
 #experience-title-channel{
     position: relative;
     text-align: center;
-    height: 1600px;
+    height: 1800px;
     width: 200px;
     margin-left: 100px;
     text-align: right;
@@ -1084,7 +990,7 @@ body{
     position: relative;
     max-width: 900px;
     margin-left: 450px;
-    margin-top: -1600px;
+    margin-top: -1800px;
 }
 
   /* The actual timeline (the vertical ruler) */
@@ -1219,3 +1125,167 @@ body{
     }
 }
 
+@media only screen and (max-width: 1500px) {
+
+    #about-title-channel{
+        position: relative;
+        height: 200px;
+        width: 90vw;
+        margin-bottom: 75px;
+    }
+
+    #to-contain{
+        padding-right: 0px;
+        height: 200px;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: #ee6c4d 2px solid;
+        border-right: none;
+    }
+
+    .about-title{
+        float: left;
+        position: relative;
+        margin: 0;
+        top: 50%;
+        margin-right: 50px;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        vertical-align: center;
+    }
+
+    #main-about{
+        float: none;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        width: 80vw;
+    }
+
+    .about-text{
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        min-width: 0px;
+        padding-right: 20px;
+        height: fit-content;
+    }
+
+    #to-contain-portfolio{
+        height: 200px;
+        border-bottom: none;
+        border-left: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 100px;
+        margin-top: 300px;
+        height: 150px;
+        position: relative;
+    }
+
+    #to-contain-portfolio:before {
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 70px;
+        right: 0;
+        height: 0px;
+        width: 450px;
+        border: 2px solid #ee6c4d;
+        border-top-width: 0;
+    }
+
+    #portfolio-title-channel{
+        float: none;
+        position: relative;
+        height: 100px;
+        width: 500px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #portfolio-title{
+        letter-spacing: normal;
+        transform: rotate(-360deg);
+        position: relative;
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        min-width: 0px;
+        height: fit-content;
+    }
+
+    .projects{
+        margin-top: 150px;
+    }
+
+    .neumorphism{
+        width: 700px;
+    }
+
+    .info-over{
+        width: 350px;
+        align-content: center;
+        margin-top: 50px;
+    }
+
+    .projects{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 100px;
+        width: 800px;
+    }
+
+    #experience-title{
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        transform: rotate(0deg);
+        height: 100px;
+        letter-spacing: normal;
+    }
+
+    #experience-title-channel{
+        height: 200px;
+        width: 500px;
+        padding-left: 0px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #to-contain-experience{
+        position: relative;
+        height: 100px;
+        margin-left: 45px;
+        top: 0px;
+        line-height: 200px;
+        width: 500px;
+        border-right: none;
+    }
+
+    #to-contain-experience:before {
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        top: 175px;
+        left: 30px;
+        right: 0;
+        height: 0px;
+        width: 450px;
+        border: 2px solid #ee6c4d;
+        border-top-width: 0;
+    }
+
+    .timeline{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 100px;
+    }
+
+    .timeline::after{
+        margin-left: 47.5px;
+    }
+}
