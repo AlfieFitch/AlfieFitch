@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./scripts.js"></script>
+    <link rel = "stylesheet" type = "text/css" href="projectcss.css">
     <script src="./typed.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Alfie Fitch</title>
@@ -17,4 +18,43 @@
     <meta name="author" content="Alfie Fitch">
     <script async src="https://w.appzi.io/w.js?token=PCdle"></script>
 </head>
-<body>
+<body onload="check_url_data()">
+
+    <img onclick="return_home();" id = "back-arrow" src = "imgs/back-arrow.png">
+
+    <div id = "project-overall">
+        <div id = "banner">
+            <div id = "mockup">
+                <img class = "project-mockup" src = "imgs/pcassembler-mockup.png">
+            </div>
+            <div class = "title-content">
+                <h1 id = "project-title">PC Assembler</h1>
+                <h2 id = "project-description">Computer Science A Level coursework to help select the correct and compatible parts for a computer build.</h2>
+            </div>
+        </div>
+    
+        <div id = "top-right-infobox">
+            <h1 class = "infobox-titles">Technologies</h1>
+            <div id = "languages">
+                <h1>JavaScript</h1>
+                <h1>HTML</h1>
+                <h1>Java</h1>
+                <h1>CSS</h1>
+            </div>
+
+            <h1 class = "infobox-titles" style="margin-top: 40px;">Timeframe</h1>
+            <h1 id ="dates" class = "infobox-small">Oct 2020 - Jan 2021</h1>
+
+            <h1 class = "infobox-titles" style="margin-top: 40px;">Status</h1>
+            <div id = "status">
+                <h1 class = "complete">Complete</h1>
+            </div>
+    
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
