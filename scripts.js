@@ -74,6 +74,9 @@ function check_url_data(){
         apploy();
     }else if(project_name == "fitch-network"){
         fitch_network();
+    }else{
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("body").style.overflowY = "visible"
     }
 }
 
@@ -84,6 +87,8 @@ function fill_the_gapz(){
     document.getElementById("status").innerHTML = '<h1 class = "working">In Development</h1>'
     document.getElementById("languages").innerHTML = '<h1>JavaScript</h1> <h1>HTML</h1>  <h1>Firebase</h1>  <h1>CSS</h1>'
     document.getElementById("project-description").innerText = "An online, multiplayer and responsive Cards against Humanity clone with custom cards and images."
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("body").style.overflowY = "visible"
 }
 
 function apploy(){
@@ -93,6 +98,8 @@ function apploy(){
     document.getElementById("status").innerHTML = '<h1 class = "working">In Development</h1>'
     document.getElementById("languages").innerHTML = '<h1>JavaScript</h1> <h1>HTML</h1>  <h1>Firebase</h1>  <h1>SCSS</h1>'
     document.getElementById("project-description").innerText = "An online database of freelance software engineers available to hire - A place to display your work and get jobs."
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("body").style.overflowY = "visible"
 }
 
 function fitch_network(){
@@ -102,4 +109,7 @@ function fitch_network(){
     document.getElementById("status").innerHTML = '<h1 class = "complete">Complete</h1>'
     document.getElementById("languages").innerHTML = '<h1>JavaScript</h1> <h1>HTML</h1>  <h1>3rd Party</h1>  <h1>CSS</h1>'
     document.getElementById("project-description").innerText = "Online portal to access the services provided such as Plex and Movie requests."
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("body").style.overflowY = "visible"
 }
+
