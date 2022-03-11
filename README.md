@@ -2,7 +2,6 @@
 <h1> Hello Fellow < Developers/ >! </h1>
 <p align='center'>
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=AlfieFitch.AlfieFitch)
 
 </p>
 <div size='20px'> Hey, my name is Alfie, Thank You for taking the time to view my GitHub Profile!
@@ -11,7 +10,7 @@
 <h2> About Me: </h2>
 
 
-- 🔭 I’m currently working on Fill The Gapz.
+- 🔭 I’m currently working on The Film Smash.
 
 
 - 🌱 I’m currently learning React and Electron.
@@ -20,7 +19,7 @@
 - 🎓 I'm currently studying BSc Software Engineering.
  
  
-- 👨‍💻 I first started coding 6 years ago in Python.
+- 👨‍💻 I first started coding 8 years ago in Python.
 
 
 <h2> Skills: </h2>
