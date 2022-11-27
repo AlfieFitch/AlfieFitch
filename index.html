@@ -16,19 +16,33 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, Developer, Student, Jobs, Freelance">
     <meta name="author" content="Alfie Fitch">
     <script async src="https://w.appzi.io/w.js?token=PCdle"></script>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.2/firebase-analytics.js";
+        const firebaseConfig = {
+            apiKey: "AIzaSyBX967163uQqOA0JLhcxl3NUSBxoEbyqO4",
+            authDomain: "alfie-fitch.firebaseapp.com",
+            projectId: "alfie-fitch",
+            storageBucket: "alfie-fitch.appspot.com",
+            messagingSenderId: "926700311960",
+            appId: "1:926700311960:web:c9410dafd98ba8f3b547ed",
+            measurementId: "G-RLS55ZMSG7"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+    <script data-ad-client="ca-pub-1516365371884656" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body>
-
-    <div id = "notification">
-        <h1>This website is still in development! <br><a class = "feedback" data-az-l="2f84674c-8b88-4234-81ec-f5acbf7a80bb">Leave Feedback</a></h1>
-    </div>
 
     <div id = "navbar" class = "navbar">
         <img class = "logo" src="./imgs/logo.png" alt = "logo">
         <ul>
             <li><a href="#aboutsplitter">About</a></li>
-            <li><a href="./under-development.html">Experience</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#timeline">Experience</a></li>
             <li><a href="./under-development.html">Contact</a></li>
         </ul>
     </div>
@@ -48,7 +62,7 @@
         <div id = "hero-text">
             <h1 class = "small-text">Hey, my name is</h1>
             <h1 class = "large-text">Alfie Fitch</h1>
-            <h1 class="medium-text">I <span class="typing"></span></h3>
+            <h1 class="medium-text">I <span class="typing"></span></h1>
             <script>
                 var typed = new Typed('.typing', {
                     strings: ['am a Front-end Developer','code Java','code Python','code HTML','code CSS','code JavaScript','code SQL'],
@@ -58,10 +72,7 @@
                 });
             </script>
             <div class="flip">
-                <a href="mailto:hello@alfiefitch.com" target="_blank">
-                    <div class="front">Contact</div>
-                    <div class="back">Contact</div>
-                </a>
+                <span><a href="mailto:hello@alfiefitch.com"></a></span>
             </div>
         </div>
     </div>
@@ -80,12 +91,12 @@
 
             <div id = "main-about">
                 <h1 class = "about-text">
-                    I am an 18 year old programmer from the United Kingdom. It has been 6 years since I first printed 'hello world' in Python during my very first GCSE Computer Science lesson in year 9, and, since then my language portfolio has grown and continues to do so. I am currently focusing on Front-end web development, perfecting my JavaScript, HTML and CSS skills as well as pursuing a bachelor's degree in Software Engineering after completing an A-level in Computer Science.
+                    I am an 19 year old programmer from the United Kingdom. It has been 6 years since I first printed 'hello world' in Python during my very first GCSE Computer Science lesson in year 9, and, since then my language portfolio has grown and continues to do so. I am currently focusing on Front-end web development, perfecting my JavaScript, HTML and CSS skills as well as pursuing a bachelor's degree in Software Engineering after completing an A-level in Computer Science.
                 </br>
                 </br>
                     Fast-forward to March 2020 and the closure of colleges across the United Kingdom, I suddenly found myself with free time which I used over the next year to improve and learn new features. I challenged myself with projects that would test my abilities and help me improve my code. During this time, Front-end web development became my favourite, resulting in my main project - Fill the Gapz, an online, multiplayer cards against humanity clone.
                 </br>
-                <h1 class = "about-text">What the future holds is still unknown. I am currently studying Software Engineering at University as well as taking part in work experience alongside during any holidays or breaks.</br></br>My main focus is to constantly learn, improve and ensure any projects I take on are done to a high standard, accessible and intuitive which holds true for any projects for clients in the past as well as future.</h1></h1>
+                <h1 class = "about-text">I am currently studying Software Engineering at University as well as taking part in work experience alongside during any holidays or breaks.</br></br>My main focus is to constantly learn, improve and ensure any projects I take on are done to a high standard, accessible and intuitive which holds true for any projects for clients in the past as well as future.</h1></h1>
                 </br>
                 <h1 class = "underline">Technologies I have used recently:</h1>
                 <div class="page-wrap">
@@ -121,8 +132,12 @@
                     </div>
 
                     <div class="skill-bar-container">
-                        <span class="skill-name">Electron</span>
-                        <span class="skill-bar level2"></span>
+                        <span class="skill-name">Firebase</span>
+                        <span class="skill-bar level5"></span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <span class="skill-name">Appwrite</span>
+                        <span class="skill-bar level4"></span>
                     </div>
                 </div>
 
@@ -156,7 +171,7 @@
     </div>
 
     <div class = "projects">
-        <div class = "neumorphism hover">
+        <div  onclick = "to_project('fill-the-gapz');" class = "neumorphism hover">
             <img class = "phone-mockup" src = "imgs/fillthegapz-mockup.png" alt = "FTG mockup">
             <div class = "info-over">
                 <div class = "project-logo">
@@ -171,7 +186,7 @@
             </div>
         </div>
 
-        <div class = "neumorphism hover">
+        <div onclick = "to_project('pcassembler');" class = "neumorphism hover">
             <img class = "phone-mockup" src = "imgs/pcassembler-mockup.png" alt = "PCA mockup">
             <div class = "info-over">
                 <div class = "project-logo">
@@ -186,12 +201,12 @@
             </div>
         </div>
 
-        <div class = "neumorphism hover">
+        <div onclick = "to_project('apploy');"  class = "neumorphism hover">
             <img class = "phone-mockup" src = "imgs/apploy-mockup.png" alt = "Apploy mockup">
             <div class = "info-over">
                 <div class = "project-logo">
                     <div class = "the-logo">
-                        <img class = "project-logo-ftg hover" src ="imgs/apploy-logo.png" alt = "APP favicon">
+                        <img class = "project-logo-ftg hover" src ="./imgs/apploy-logo.png" alt = "APP favicon">
                     </div>
                 </div>
                 <h1 class = "alfie-title ">Apploy</h1>
@@ -201,7 +216,7 @@
             </div>
         </div>
 
-        <div class = "neumorphism hover">
+        <div  onclick = "to_project('fitch-network');" class = "neumorphism hover">
             <img class = "phone-mockup" src = "imgs/FN-mockup.png" alt = "FN mockup">
             <div class = "info-over">
                 <div class = "project-logo">
@@ -215,18 +230,82 @@
                 </div>
             </div>
         </div>
+
+        <div  onclick = "to_project('fitch-network');" class = "neumorphism hover">
+            <img class = "phone-mockup" src = "imgs/fn-mockup.png" alt = "FN mockup">
+            <div class = "info-over">
+                <div class = "project-logo">
+                    <div class = "the-logo">
+                        <img class = "project-logo-ftg hover" src ="imgs/filmsmash.png " alt = "FS favicon">
+                    </div>
+                </div>
+                <h1 class = "alfie-title">Film Smash</h1>
+                <div class = "tag">
+                    <h1>In Development</h1>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id = "portfolioaftersplitter"></div>
-
-
 </div>
 
-<div id = "portfolio-overall">
+<div id = "portfolioaftersplitter"></div>
+
+
+<div id = "experience-overall">
+    <div id = "experience-title-channel">
+        <div id = "to-contain-experience">
+            <h1 id = "experience-title">Experience</h1>
+        </div>
+    </div>
+    <div class="timeline" id = "timeline">
+        <div class="container right">
+            <div class="content">
+                <h2 class = "dates">Present</h2>
+                <p>Currently, I am completing work experience at multiple web development companies in the local area, as well as continuing freelance work. I plan to start University in 2022 studying Computer Science or Software Engineering. I am also working at Waitrose and Partners helping develop leadership skills as part of my management role.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2 class = "dates">June  2021</h2>
+                <p>After an odd year of college due to different covid restrictions, I completed my A Levels and passed all of them including Computer Science, with a high level coursework project. </p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2 class = "dates">March 2021</h2>
+                <p>I first began freelance web development, using websites such as Fiverr to develop provided designs for clients. In addition, I began one of my first major projects - Fill the Gapz.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2 class = "dates">December 2020</h2>
+                <p>My A Level Computer Science Coursework commenced, This was one of the first situations where I had limited time to complete a major project. This helped improve time managment and organisation skills.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2 class = "dates">June  2019</h2>
+                <p>During June, I completed work experience at a local solicitors firm, during which I helped improve the office network and organisation of switches, hubs and devices. In addition, I improved my workplace skills.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2 class = "dates">August 2019</h2>
+                <p>I completed my GCSE exams, passing in all 11 subjects including an A in Computer Science - bringing an end to my secondary school education.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2 class = "dates">2015</h2>
+                <p>During Year 8, I first began programming, creating games in Scratch, before moving onto Python and creating robots with Raspberry Pi's.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id = "experienceaftersplitter"></div>
 
 </div>
-
-
 
 </body>
 </html>
