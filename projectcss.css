@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7dbc084b172a4bd0bb2e39ef0d608d11e37e7923
 body{
     overflow-y: hidden;
 }
@@ -265,6 +268,8 @@ body{
 .github-projects:hover{
     filter: invert(53%) sepia(37%) saturate(3466%) hue-rotate(333deg) brightness(103%) contrast(87%);
     cursor: pointer;
+<<<<<<< HEAD
+=======
 =======
 body{
     overflow-y: hidden;
@@ -533,4 +538,5 @@ body{
     filter: invert(53%) sepia(37%) saturate(3466%) hue-rotate(333deg) brightness(103%) contrast(87%);
     cursor: pointer;
 >>>>>>> 00d485bccc2047f2cac96cc29fcbc0e191a564e5
+>>>>>>> 7dbc084b172a4bd0bb2e39ef0d608d11e37e7923
 }
