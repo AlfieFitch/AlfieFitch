@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="robots" content="noindex">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./scripts.js"></script>
+    <link rel = "stylesheet" type = "text/css" href="projectcss.css">
     <script src="./typed.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Alfie Fitch</title>
@@ -17,4 +19,73 @@
     <meta name="author" content="Alfie Fitch">
     <script async src="https://w.appzi.io/w.js?token=PCdle"></script>
 </head>
-<body>
+<body id = "body" onload="check_url_data()">
+
+    <div id = "loader">
+        <div class="gooey">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <img onclick="return_home();" id = "back-arrow" src = "imgs/back-arrow.png">
+
+    <div id = "project-overall">
+        <div id = "banner">
+            <div id = "mockup">
+                <img class = "project-mockup" src = "imgs/pcassembler-mockup.png">
+            </div>
+            <div class = "title-content">
+                <h1 id = "project-title">PC Assembler</h1>
+                <h2 id = "project-description">Computer Science A Level coursework to help select the correct and compatible parts for a computer build.</h2>
+            </div>
+        </div>
+    
+        <div id = "top-right-infobox">
+            <h1 class = "infobox-titles">Technologies</h1>
+            <div id = "languages">
+                <h1>JavaScript</h1>
+                <h1>HTML</h1>
+                <h1>Java</h1>
+                <h1>CSS</h1>
+            </div>
+
+            <h1 class = "infobox-titles" style="margin-top: 40px;">Timeframe</h1>
+            <h1 id ="dates" class = "infobox-small">Oct 2020 - Jan 2021</h1>
+
+            <h1 class = "infobox-titles" style="margin-top: 40px;">Status</h1>
+            <div id = "status">
+                <h1 class = "complete">Complete</h1>
+            </div>
+
+            <div id = "github-div">
+                <img onclick ="github()" class = "github-projects" src = "imgs/social/038-github.svg">
+            </div>
+    
+        </div>
+
+        <div id = "paragraph-1">
+            <h1>PC Assembler was my first full project. It was a requirement for the OCR A Level Computer Science course to 
+                create a website. PC Assembler went through multiple iterations, as well as planning to make sure the project
+                was completed by the strict deadline, which was 4pm on the 21st January 2021. <br> <br>
+                The Full write up for the project including design and development can be found <a class = "link" target = "_blank" href="writeup.pdf">here</a>. <br><br>
+                PC Assembler was one of 3 ideas I had which had to be approved by the teacher. Other ideas included a static HTML page
+                using the Plex API to display media from a server for someone who does not have access to the server. <br><br>
+                Pc Assembler was my first project which involved the development of custom API's in Java, as well as, creating a Web
+                server for the project. This project can be described as full stack. Both the Front-end HTML, CSS and Javascript, as well as
+                the back-end Java, API's and SQL database was programmed and designed by myself. <br><br>
+                Due to the environment the project was created in, there is currently no live demo.
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
