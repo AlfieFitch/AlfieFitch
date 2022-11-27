@@ -15,6 +15,7 @@ body{
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 flip span{
     position: relative;
     display: inline-flex;
@@ -56,6 +57,8 @@ span a:after{
 span a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
 }
+=======
+>>>>>>> 00d485bccc2047f2cac96cc29fcbc0e191a564e5
 
 ::-webkit-scrollbar {
     width: 7px;
@@ -105,7 +108,10 @@ span a:hover{
     margin-left: auto;
     margin-right: auto;
     border-radius: 4px;
+<<<<<<< HEAD
     padding: 20px;
+=======
+>>>>>>> 00d485bccc2047f2cac96cc29fcbc0e191a564e5
 }
 
 .logo{
@@ -748,7 +754,11 @@ span a:hover{
     float: right;
     position: relative;
     text-align: center;
+<<<<<<< HEAD
     height: 2075px;
+=======
+    height: 1425px;
+>>>>>>> 00d485bccc2047f2cac96cc29fcbc0e191a564e5
     width: 200px;
     margin-right: 100px;
 }
@@ -975,14 +985,22 @@ span a:hover{
 }
 
 #portfolioaftersplitter{
+<<<<<<< HEAD
     height: 500px;
+=======
+    height: 200px;
+>>>>>>> 00d485bccc2047f2cac96cc29fcbc0e191a564e5
 }
 
 
 
 
 #experience-overall{
+<<<<<<< HEAD
     margin-top: 1000px;
+=======
+    margin-top: 850px;
+>>>>>>> 00d485bccc2047f2cac96cc29fcbc0e191a564e5
     height: 1000px;
     max-width: 1600px;
     margin-left: auto;
@@ -1020,7 +1038,11 @@ span a:hover{
     font-family: 'Heebo', sans-serif;
     font-weight: bold;
     font-size: 75px;
+<<<<<<< HEAD
     letter-spacing: 5px;
+=======
+    letter-spacing: 10px;
+>>>>>>> 00d485bccc2047f2cac96cc29fcbc0e191a564e5
     padding: 7px;
     width: 500px;
     height: 400px;
@@ -1330,6 +1352,7 @@ span a:hover{
     .timeline::after{
         margin-left: 47.5px;
     }
+<<<<<<< HEAD
 
     #portfoliosplitter{
         height: 1200px;
@@ -1385,4 +1408,6 @@ span a:hover{
     .about-text{
         padding-right: 0px;
     }
+=======
+>>>>>>> 00d485bccc2047f2cac96cc29fcbc0e191a564e5
 }

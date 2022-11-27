@@ -11,317 +11,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/jpg" href="./imgs/logo.png"/>
-    <meta name="description" content="Website for Alfie Fitch - A student Front-end Web developer and Software Engineer, responsible for multiple projects. ">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Developer, Student, Jobs, Freelance">
-    <meta name="author" content="Alfie Fitch">
-    <script async src="https://w.appzi.io/w.js?token=PCdle"></script>
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.2/firebase-analytics.js";
-        const firebaseConfig = {
-            apiKey: "AIzaSyBX967163uQqOA0JLhcxl3NUSBxoEbyqO4",
-            authDomain: "alfie-fitch.firebaseapp.com",
-            projectId: "alfie-fitch",
-            storageBucket: "alfie-fitch.appspot.com",
-            messagingSenderId: "926700311960",
-            appId: "1:926700311960:web:c9410dafd98ba8f3b547ed",
-            measurementId: "G-RLS55ZMSG7"
-        };
 
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-    </script>
-    <script data-ad-client="ca-pub-1516365371884656" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body>
-
     <div id = "navbar" class = "navbar">
-        <img class = "logo" src="./imgs/logo.png" alt = "logo">
+        <img class = "logo" src="./imgs/logo.png">
         <ul>
             <li><a href="#aboutsplitter">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#timeline">Experience</a></li>
-            <li><a href="./under-development.html">Contact</a></li>
+            <li><a href="news.asp">Experience</a></li>
+            <li><a href="contact.asp">Portfolio</a></li>
+            <li><a href="about.asp">Contact</a></li>
         </ul>
     </div>
-
 
     <div id = "social-links">
         <div id = "vl2"></div>
         <div id = "images">
-            <a href = "https://github.com/AlfieFitch" target="_blank"><svg class = "social-images" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m256 0c-140.699219 0-256 116.300781-256 257 0 139.882812 114.25 255 256 255 141.574219 0 256-114.945312 256-255 0-140.699219-115.300781-257-256-257zm45 477.5c-14.398438 3-29.699219 4.5-45 4.5s-30.601562-1.5-45-4.5v-70.199219c0-16.800781 4.5-22.800781 10.5-30.902343 3.054688-3.492188 4.898438-6.625 18.597656-27.296876l-23.097656-3.601562c-59.402344-8.699219-82.800781-39.601562-92.101562-63.601562-12-32.097657-5.699219-72.300782 15.902343-97.796876 3.300781-3.902343 6-10.503906 3.601563-17.402343-4.503906-13.800781-3.902344-35.699219-.902344-44.101563 15.90625 2.273438 32.261719 13.667969 45.902344 21.902344 6.285156 3.667969 9.582031 2.699219 12.597656 3 10.960938-2.28125 28.058594-7.800781 54.300781-7.800781 16.199219 0 33.300781 2.398437 50.101563 7.199219 3.003906-.070313 7.832031 2.484374 16.199218-2.398438 14.257813-8.6875 30.058594-19.691406 45.898438-21.902344 3 8.402344 3.601562 30.300782-.898438 44.101563-2.402343 6.898437.296876 13.5 3.601563 17.402343 21.597656 25.5 27.898437 65.699219 15.898437 97.796876-9.300781 24-32.699218 54.902343-92.101562 63.601562l-23.097656 3.601562c14.160156 21.367188 15.652344 23.929688 18.601562 27.296876 5.996094 8.101562 10.496094 14.101562 10.496094 30.902343zm30-8.699219v-61.5c0-17.101562-3.601562-28.5-8.402344-36.902343 45.601563-12.296876 78.003906-39.300782 92.402344-78 15.300781-40.796876 8.402344-89.398438-17.101562-123 4.503906-20.097657 4.503906-52.199219-6.296876-67.199219-4.800781-6.597657-11.402343-10.199219-19.800781-10.199219-.300781 0-.300781 0-.300781 0-23.261719 1.257812-41.570312 12.972656-61.199219 24.898438-18-4.800782-36.300781-7.199219-54.601562-7.199219-18.597657 0-37.199219 2.699219-53.695313 7.199219-20.664062-12.460938-38.796875-23.671876-62.703125-24.898438-7.5 0-14.101562 3.601562-18.902343 10.199219-10.796876 15-10.796876 47.101562-6.296876 67.199219-25.503906 33.601562-32.402343 82.5-17.101562 123 14.398438 38.699218 46.800781 65.703124 92.402344 78-3.722656 6.511718-6.667969 14.914062-7.828125 26.285156-9.210938 3.175781-17.199219 4.210937-24.628907 2.027344-7.835937-2.316407-13.941406-7.546876-19.246093-16.46875-11.914063-20.015626-32.207031-36.355469-55.3125-34.230469l2.636719 29.882812c10.699218-.980469 21.347656 10.339844 26.878906 19.671875 9.125 15.367188 21.417968 25.445313 36.546875 29.914063 11.230469 3.308593 21.496093 3.230469 32.550781.871093v40.449219c-87.300781-30.601562-151-114-151-211.800781 0-124.199219 101.800781-227 226-227s226 102.800781 226 227c0 97.800781-63.699219 181.199219-151 211.800781zm0 0"/></svg></a>
-            <a href = "https://www.linkedin.com/in/alfie-fitch-2b3700221" target="_blank"><svg class = "social-images" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m437 0h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75h362c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75zm45 437c0 24.8125-20.1875 45-45 45h-362c-24.8125 0-45-20.1875-45-45v-362c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45zm0 0"/><path d="m91 422h90v-212h-90zm30-182h30v152h-30zm0 0"/><path d="m331.085938 210c-.027344 0-.058594 0-.085938 0-10.371094 0-20.472656 1.734375-30 5.101562v-5.101562h-90v212h90v-107c0-8.269531 6.730469-15 15-15s15 6.730469 15 15v107h90v-117.3125c0-48.546875-39.382812-94.640625-89.914062-94.6875zm59.914062 182h-30v-77c0-24.8125-20.1875-45-45-45s-44.996094 20.1875-45 44.996094v77.003906h-30v-152h30v30.019531l24.007812-18.03125c10.441407-7.84375 22.886719-11.988281 35.992188-11.988281h.058594c31.929687.03125 59.941406 30.257812 59.941406 64.6875zm0 0"/><path d="m91 180h90v-90h-90zm30-60h30v30h-30zm0 0"/></svg></a>
-            <a href = "mailto:hello@alfiefitch.com" target="_blank"><svg class = "social-images" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M467,61H45C20.218,61,0,81.196,0,106v300c0,24.72,20.128,45,45,45h422c24.72,0,45-20.128,45-45V106C512,81.28,491.872,61,467,61z M460.786,91L256.954,294.833L51.359,91H460.786z M30,399.788V112.069l144.479,143.24L30,399.788zM51.213,421l144.57-144.57l50.657,50.222c5.864,5.814,15.327,5.795,21.167-0.046L317,277.213L460.787,421H51.213z M482,399.787L338.213,256L482,112.212V399.787z"/></svg></a>
+            <svg class = "social-images" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m256 0c-140.699219 0-256 116.300781-256 257 0 139.882812 114.25 255 256 255 141.574219 0 256-114.945312 256-255 0-140.699219-115.300781-257-256-257zm45 477.5c-14.398438 3-29.699219 4.5-45 4.5s-30.601562-1.5-45-4.5v-70.199219c0-16.800781 4.5-22.800781 10.5-30.902343 3.054688-3.492188 4.898438-6.625 18.597656-27.296876l-23.097656-3.601562c-59.402344-8.699219-82.800781-39.601562-92.101562-63.601562-12-32.097657-5.699219-72.300782 15.902343-97.796876 3.300781-3.902343 6-10.503906 3.601563-17.402343-4.503906-13.800781-3.902344-35.699219-.902344-44.101563 15.90625 2.273438 32.261719 13.667969 45.902344 21.902344 6.285156 3.667969 9.582031 2.699219 12.597656 3 10.960938-2.28125 28.058594-7.800781 54.300781-7.800781 16.199219 0 33.300781 2.398437 50.101563 7.199219 3.003906-.070313 7.832031 2.484374 16.199218-2.398438 14.257813-8.6875 30.058594-19.691406 45.898438-21.902344 3 8.402344 3.601562 30.300782-.898438 44.101563-2.402343 6.898437.296876 13.5 3.601563 17.402343 21.597656 25.5 27.898437 65.699219 15.898437 97.796876-9.300781 24-32.699218 54.902343-92.101562 63.601562l-23.097656 3.601562c14.160156 21.367188 15.652344 23.929688 18.601562 27.296876 5.996094 8.101562 10.496094 14.101562 10.496094 30.902343zm30-8.699219v-61.5c0-17.101562-3.601562-28.5-8.402344-36.902343 45.601563-12.296876 78.003906-39.300782 92.402344-78 15.300781-40.796876 8.402344-89.398438-17.101562-123 4.503906-20.097657 4.503906-52.199219-6.296876-67.199219-4.800781-6.597657-11.402343-10.199219-19.800781-10.199219-.300781 0-.300781 0-.300781 0-23.261719 1.257812-41.570312 12.972656-61.199219 24.898438-18-4.800782-36.300781-7.199219-54.601562-7.199219-18.597657 0-37.199219 2.699219-53.695313 7.199219-20.664062-12.460938-38.796875-23.671876-62.703125-24.898438-7.5 0-14.101562 3.601562-18.902343 10.199219-10.796876 15-10.796876 47.101562-6.296876 67.199219-25.503906 33.601562-32.402343 82.5-17.101562 123 14.398438 38.699218 46.800781 65.703124 92.402344 78-3.722656 6.511718-6.667969 14.914062-7.828125 26.285156-9.210938 3.175781-17.199219 4.210937-24.628907 2.027344-7.835937-2.316407-13.941406-7.546876-19.246093-16.46875-11.914063-20.015626-32.207031-36.355469-55.3125-34.230469l2.636719 29.882812c10.699218-.980469 21.347656 10.339844 26.878906 19.671875 9.125 15.367188 21.417968 25.445313 36.546875 29.914063 11.230469 3.308593 21.496093 3.230469 32.550781.871093v40.449219c-87.300781-30.601562-151-114-151-211.800781 0-124.199219 101.800781-227 226-227s226 102.800781 226 227c0 97.800781-63.699219 181.199219-151 211.800781zm0 0"/></svg>
+            <svg class = "social-images" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m437 0h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75h362c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75zm45 437c0 24.8125-20.1875 45-45 45h-362c-24.8125 0-45-20.1875-45-45v-362c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45zm0 0"/><path d="m91 422h90v-212h-90zm30-182h30v152h-30zm0 0"/><path d="m331.085938 210c-.027344 0-.058594 0-.085938 0-10.371094 0-20.472656 1.734375-30 5.101562v-5.101562h-90v212h90v-107c0-8.269531 6.730469-15 15-15s15 6.730469 15 15v107h90v-117.3125c0-48.546875-39.382812-94.640625-89.914062-94.6875zm59.914062 182h-30v-77c0-24.8125-20.1875-45-45-45s-44.996094 20.1875-45 44.996094v77.003906h-30v-152h30v30.019531l24.007812-18.03125c10.441407-7.84375 22.886719-11.988281 35.992188-11.988281h.058594c31.929687.03125 59.941406 30.257812 59.941406 64.6875zm0 0"/><path d="m91 180h90v-90h-90zm30-60h30v30h-30zm0 0"/></svg>
+            <svg class = "social-images" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M467,61H45C20.218,61,0,81.196,0,106v300c0,24.72,20.128,45,45,45h422c24.72,0,45-20.128,45-45V106C512,81.28,491.872,61,467,61z M460.786,91L256.954,294.833L51.359,91H460.786z M30,399.788V112.069l144.479,143.24L30,399.788zM51.213,421l144.57-144.57l50.657,50.222c5.864,5.814,15.327,5.795,21.167-0.046L317,277.213L460.787,421H51.213z M482,399.787L338.213,256L482,112.212V399.787z"/></svg>
         </div>
         <div id = "vl"></div>
     </div>
 
     <div id = "hero" class = "hero">
         <div id = "hero-text">
-            <h1 class = "small-text">Hey, my name is</h1>
+            <h1 class = "small-text">Hi, my name is</h1>
             <h1 class = "large-text">Alfie Fitch</h1>
-            <h1 class="medium-text">I <span class="typing"></span></h1>
+            <h1 class="medium-text"><span class="typing"></span></h3>
             <script>
                 var typed = new Typed('.typing', {
-                    strings: ['am a Front-end Developer','code Java','code Python','code HTML','code CSS','code JavaScript','code SQL'],
+                    strings: ['Front-end Development','Java','Python','HTML','CSS','JavaScript','SQL'],
                     typeSpeed: 80,
                     backSpeed: 60,
                     loop: true,
                 });
             </script>
             <div class="flip">
-                <span><a href="mailto:hello@alfiefitch.com"></a></span>
+                <a href="https://dribbble.com/shots/2507318-start-rollover" target="_blank">
+                    <div class="front">Contact</div>
+                    <div class="back">Contact</div>
+                </a>
             </div>
         </div>
     </div>
 
     <div id = "aboutsplitter" class = "splitter"></div>
 
-    <div id = "about" class = "about">
-        <div id = "about-overall">
-            <div id = "about-title-channel">
-                <div id = "to-contain">
-                    <h1 id = "about-title" class = "about-title">About Me</h1>
-                    <img class = "profile" src = "./imgs/profile.png" alt = "alfie-fitch">
-                </div>
-            </div>
-
-
-            <div id = "main-about">
-                <h1 class = "about-text">
-                    I am an 19 year old programmer from the United Kingdom. It has been 6 years since I first printed 'hello world' in Python during my very first GCSE Computer Science lesson in year 9, and, since then my language portfolio has grown and continues to do so. I am currently focusing on Front-end web development, perfecting my JavaScript, HTML and CSS skills as well as pursuing a bachelor's degree in Software Engineering after completing an A-level in Computer Science.
-                </br>
-                </br>
-                    Fast-forward to March 2020 and the closure of colleges across the United Kingdom, I suddenly found myself with free time which I used over the next year to improve and learn new features. I challenged myself with projects that would test my abilities and help me improve my code. During this time, Front-end web development became my favourite, resulting in my main project - Fill the Gapz, an online, multiplayer cards against humanity clone.
-                </br>
-                <h1 class = "about-text">I am currently studying Software Engineering at University as well as taking part in work experience alongside during any holidays or breaks.</br></br>My main focus is to constantly learn, improve and ensure any projects I take on are done to a high standard, accessible and intuitive which holds true for any projects for clients in the past as well as future.</h1></h1>
-                </br>
-                <h1 class = "underline">Technologies I have used recently:</h1>
-                <div class="page-wrap">
-
-                    <div class="skill-bar-container">
-                        <span class="skill-name">HTML</span>
-                        <span class="skill-bar level7"></span>
-                    </div>
-
-                    <div class="skill-bar-container">
-                        <span class="skill-name">CSS</span>
-                        <span class="skill-bar level7"></span>
-                    </div>
-
-                    <div class="skill-bar-container">
-                        <span class="skill-name">JavaScript</span>
-                        <span class="skill-bar level5"></span>
-                    </div>
-
-                    <div class="skill-bar-container">
-                        <span class="skill-name">Python</span>
-                        <span class="skill-bar level6"></span>
-                    </div>
-
-                    <div class="skill-bar-container">
-                        <span class="skill-name">Java</span>
-                        <span class="skill-bar level3"></span>
-                    </div>
-
-                    <div class="skill-bar-container">
-                        <span class="skill-name">SQL</span>
-                        <span class="skill-bar level4"></span>
-                    </div>
-
-                    <div class="skill-bar-container">
-                        <span class="skill-name">Firebase</span>
-                        <span class="skill-bar level5"></span>
-                    </div>
-                    <div class="skill-bar-container">
-                        <span class="skill-name">Appwrite</span>
-                        <span class="skill-bar level4"></span>
-                    </div>
-                </div>
-
-
-                <div class = "spotify-link" style="display: none;">
-                    <img class = "spotify" src="./imgs/social/046-spotify.svg" alt = "spotify logo">
-                    <a href = "https://open.spotify.com/user/402gieqai3cojrt7dlt3lrcq1" target="_blank"> View My Profile</a>
-                </div>
-                <div id = "currently-listening" style="display: none;">
-                    <div id = "now-playing">
-                        <h1 class = "now-playing-title">What I am listening to now:</h1>
-                        <div id = "album-image"><img class = 'album-image-real' atl = "album image" src='https://i.scdn.co/image/ab67616d0000b273d79ba8ad2be777bad0e9924b'></img></div>
-                        <div class = "center-text">
-                        <div id = "song-name">Celebration</div>
-                        <div id = "artist-name">Kanye West</div>
-                        <div id = "album-name">Late Registration</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div id = "portfoliosplitter"></div>
-<div id = "portfolio">
-    <div id = "portfolio-title-channel">
-        <div id = "to-contain-portfolio">
-            <h1 id = "portfolio-title">Portfolio</h1>
-        </div>
+    <div id = "about">
+        <h1 class = "about-title">About Me</h1>
     </div>
 
-    <div class = "projects">
-        <div  onclick = "to_project('fill-the-gapz');" class = "neumorphism hover">
-            <img class = "phone-mockup" src = "imgs/fillthegapz-mockup.png" alt = "FTG mockup">
-            <div class = "info-over">
-                <div class = "project-logo">
-                    <div class = "the-logo">
-                        <img class = "project-logo-ftg hover" src ="imgs/FTGfav.png" alt = "FTG favicon">
-                    </div>
-                </div>
-                <h1 class = "alfie-title ">Fill The Gapz</h1>
-                <div class = "tag">
-                    <h1>In Development</h1>
-                </div>
-            </div>
-        </div>
-
-        <div onclick = "to_project('pcassembler');" class = "neumorphism hover">
-            <img class = "phone-mockup" src = "imgs/pcassembler-mockup.png" alt = "PCA mockup">
-            <div class = "info-over">
-                <div class = "project-logo">
-                    <div class = "the-logo">
-                        <img class = "project-logo-ftg hover" src ="imgs/PCFav.png" alt = "PCA favicon">
-                    </div>
-                </div>
-                <h1 class = "alfie-title ">PC Assembler</h1>
-                <div class = "developed">
-                    <h1>Complete</h1>
-                </div>
-            </div>
-        </div>
-
-        <div onclick = "to_project('apploy');"  class = "neumorphism hover">
-            <img class = "phone-mockup" src = "imgs/apploy-mockup.png" alt = "Apploy mockup">
-            <div class = "info-over">
-                <div class = "project-logo">
-                    <div class = "the-logo">
-                        <img class = "project-logo-ftg hover" src ="./imgs/apploy-logo.png" alt = "APP favicon">
-                    </div>
-                </div>
-                <h1 class = "alfie-title ">Apploy</h1>
-                <div class = "tag">
-                    <h1>In Development</h1>
-                </div>
-            </div>
-        </div>
-
-        <div  onclick = "to_project('fitch-network');" class = "neumorphism hover">
-            <img class = "phone-mockup" src = "imgs/FN-mockup.png" alt = "FN mockup">
-            <div class = "info-over">
-                <div class = "project-logo">
-                    <div class = "the-logo">
-                        <img class = "project-logo-ftg hover" src ="imgs/fn-logo.png " alt = "FN favicon">
-                    </div>
-                </div>
-                <h1 class = "alfie-title">Fitch Network</h1>
-                <div class = "developed">
-                    <h1>Complete</h1>
-                </div>
-            </div>
-        </div>
-
-        <div  onclick = "to_project('fitch-network');" class = "neumorphism hover">
-            <img class = "phone-mockup" src = "imgs/fn-mockup.png" alt = "FN mockup">
-            <div class = "info-over">
-                <div class = "project-logo">
-                    <div class = "the-logo">
-                        <img class = "project-logo-ftg hover" src ="imgs/filmsmash.png " alt = "FS favicon">
-                    </div>
-                </div>
-                <h1 class = "alfie-title">Film Smash</h1>
-                <div class = "tag">
-                    <h1>In Development</h1>
-                </div>
-            </div>
-        </div>
-
-        <div  onclick = "to_project('subtract-square');" class = "neumorphism hover">
-            <img class = "phone-mockup" src = "imgs/fn-mockup.png" alt = "FN mockup">
-            <div class = "info-over">
-                <div class = "project-logo">
-                    <div class = "the-logo">
-                        <img class = "project-logo-ftg hover" src ="imgs/filmsmash.png " alt = "FS favicon">
-                    </div>
-                </div>
-                <h1 class = "alfie-title">Subtract-A-Square</h1>
-                <div class = "developed">
-                    <h1>Complete</h1>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-
-</div>
-
-<div id = "portfolioaftersplitter"></div>
-
-
-<div id = "experience-overall">
-    <div id = "experience-title-channel">
-        <div id = "to-contain-experience">
-            <h1 id = "experience-title">Experience</h1>
-        </div>
-    </div>
-    <div class="timeline" id = "timeline">
-        <div class="container right">
-            <div class="content">
-                <h2 class = "dates">Present</h2>
-                <p>Currently, I am completing work experience at multiple web development companies in the local area, as well as continuing freelance work. I started University in 2022 studying Software Engineering. I am also working at Waitrose and Partners helping develop leadership skills as part of my management role.</p>
-            </div>
-        </div>
-        <div class="container left">
-            <div class="content">
-                <h2 class = "dates">June  2021</h2>
-                <p>After an odd year of college due to different covid restrictions, I completed my A Levels and passed all of them including Computer Science, with a high level coursework project. </p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content">
-                <h2 class = "dates">March 2021</h2>
-                <p>I first began freelance web development, using websites such as Fiverr to develop provided designs for clients. In addition, I began one of my first major projects - Fill the Gapz.</p>
-            </div>
-        </div>
-        <div class="container left">
-            <div class="content">
-                <h2 class = "dates">December 2020</h2>
-                <p>My A Level Computer Science Coursework commenced, This was one of the first situations where I had limited time to complete a major project. This helped improve time managment and organisation skills.</p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content">
-                <h2 class = "dates">June  2019</h2>
-                <p>During June, I completed work experience at a local solicitors firm, during which I helped improve the office network and organisation of switches, hubs and devices. In addition, I improved my workplace skills.</p>
-            </div>
-        </div>
-        <div class="container left">
-            <div class="content">
-                <h2 class = "dates">August 2019</h2>
-                <p>I completed my GCSE exams, passing in all 11 subjects including an A in Computer Science - bringing an end to my secondary school education.</p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content">
-                <h2 class = "dates">2015</h2>
-                <p>During Year 8, I first began programming, creating games in Scratch, before moving onto Python and creating robots with Raspberry Pi's.</p>
-            </div>
-        </div>
-    </div>
-
-    <div id = "experienceaftersplitter"></div>
-
-</div>
 
 </body>
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     overflow-y: hidden;
 }
@@ -264,4 +265,272 @@ body{
 .github-projects:hover{
     filter: invert(53%) sepia(37%) saturate(3466%) hue-rotate(333deg) brightness(103%) contrast(87%);
     cursor: pointer;
+=======
+body{
+    overflow-y: hidden;
+}
+
+#loader{
+    position: absolute;
+    background-color: #202c31;
+    height: 100vh;
+    width: 100vw;
+}
+
+.gooey {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 142px;
+    height: 40px;
+    margin: -20px 0 0 -71px;
+    background: #212c31;
+}
+
+.gooey .dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 15px;
+    background: #ee6c4d;
+    border-radius: 50%;
+    transform: translateX(0);
+    animation: dot 2.8s infinite;
+}
+
+.gooey .dots {
+    transform: translateX(0);
+    margin-top: 12px;
+    margin-left: 31px;
+    animation: dots 2.8s infinite;
+}
+
+.gooey .dots span {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    background: #ee6c4d;
+    border-radius: 50%;
+}
+@-moz-keyframes dot {
+    50% {
+        transform: translateX(96px);
+    }
+}
+
+@-webkit-keyframes dot {
+    50% {
+        transform: translateX(96px);
+    }
+}
+
+@-o-keyframes dot {
+    50% {
+        transform: translateX(96px);
+    }
+}
+
+@keyframes dot {
+    50% {
+        transform: translateX(96px);
+    }
+}
+
+@-moz-keyframes dots {
+    50% {
+        transform: translateX(-31px);
+    }
+}
+
+@-webkit-keyframes dots {
+    50% {
+        transform: translateX(-31px);
+    }
+}
+
+@-o-keyframes dots {
+    50% {
+        transform: translateX(-31px);
+    }
+}
+
+@keyframes dots {
+    50% {
+        transform: translateX(-31px);
+    }
+}
+
+
+
+#banner{
+    background-color: #202c31;
+    border: 2px solid #ee6c4d;
+    height: 400px;
+    max-width: 1500px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+#project-overall{
+    max-width: 1500px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-mockup{
+    height: 400px;
+    float: right;
+    border-radius: 10px;
+}
+
+.title-content{
+    margin: 0px;
+    max-width: 800px;
+    height: fit-content;
+    margin-left: 100px;
+    width: fit-content;
+}
+
+.title-content h1{
+    width: fit-content;
+    border-bottom: #ee6c4d 2px solid;
+    padding: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    font-size: 50px;
+    margin-top: 100px;
+    font-family: heebo;
+}
+
+
+.title-content h2{
+    margin-top: 50px;
+    font-family: heebo;
+    font-size: 18px;
+}
+
+#top-right-infobox{
+    float: right;
+    background-color: #202c31;
+    border: 2px solid #ee6c4d;
+    border-radius: 10px;
+    margin-top: 150px;
+    height: 575px;
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+#languages{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    width: 250px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#languages h1{
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: heebo;
+    background-color: #ee6c4d;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.infobox-titles{
+    font-size: 25px;
+    font-family: heebo;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 2px #ee6c4d;
+    width: fit-content;
+}
+
+.infobox-small{
+    font-size: 25px;
+    font-family: heebo;
+    width: 300px;
+    text-align: center;
+}
+
+.complete{
+    font-size: 18px;
+    font-family: heebo;
+    background-color: rgb(69, 121, 69);
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.working{
+    font-size: 18px;
+    font-family: heebo;
+    background-color: rgb(129, 54, 54);
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#back-arrow{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#back-arrow:hover{
+    cursor: pointer;
+}
+
+
+#paragraph-1{
+    font-family: heebo;
+    width: 60vw;
+    max-width: 1000px;
+    margin-left: 20px;
+    font-size: 10px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.link{
+    color: #ee6c4d;
+    text-decoration: none;
+}
+
+.github-projects{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(319deg) brightness(103%) contrast(101%);
+    height: 50px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#github-div{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github-projects:hover{
+    filter: invert(53%) sepia(37%) saturate(3466%) hue-rotate(333deg) brightness(103%) contrast(87%);
+    cursor: pointer;
+>>>>>>> 00d485bccc2047f2cac96cc29fcbc0e191a564e5
 }
