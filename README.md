@@ -1,14 +1,7 @@
 
 <h1> Hello < Developers/ >! </h1>
-<p align='center'>
 
-
-</p>
-<div size='20px'> Hey, my name is Alfie, Thank You for taking the time to view my GitHub Profile!
-</div>
-
-<h2> About Me: </h2>
-
+</br>
 
 - 🔭 I’m currently working on The Film Smash.
 
@@ -19,9 +12,11 @@
 - 👨‍💻 I first started coding 8 years ago in Python.
  
 
-- 🎓I am currently Studying Software Engineering.
+- 🎓I am currently Studying Software Engineering (bEng).
 
-<h2> Skills: </h2>
+</br>
+
+<h2> Languages and Frameworks I use: </h2>
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=python&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/python.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=reactjs&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/reactjs.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=javascript&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/javascript.svg'>   </a> &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp
@@ -30,11 +25,13 @@
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=java&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/java.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=electron&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/electron.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=mysql&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/mysql.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=firebasel&sort= > <img width ='32px' src ='https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=appwrite&sort= > <img width ='32px' src ='https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 
-
-  
-  
-<h2> Stuff I worked on last week: </h2>
+</br>
+</br> 
+</br>
+<h2> Languages I used last week: </h2>
 <a href="https://github.com/anuraghazra/github-readme-stats">
 <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=@Alfie_Fitch&compact=True"/>
 </a>
