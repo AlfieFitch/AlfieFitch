@@ -6,7 +6,7 @@
 - 🔭 I’m currently working on The Film Smash.
 
 
-- 🌱 I’m currently learning React and Electron.
+- 🌱 I’m currently learning SvelteKit.
  
  
 - 👨‍💻 I first started coding 8 years ago in Python.
