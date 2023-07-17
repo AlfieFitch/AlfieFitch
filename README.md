@@ -9,10 +9,10 @@
 - 🌱 I’m currently learning SvelteKit.
  
  
-- 👨‍💻 I first started coding 8 years ago in Python.
+- 👨‍💻 I first started coding 10 years ago in Python.
  
 
-- 🎓I am currently Studying Software Engineering (bEng).
+- 🎓I am Studying Software Engineering (bEng).
 
 </br>
 
@@ -23,11 +23,10 @@
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=html&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/html.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=css&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/css.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=java&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/java.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-<a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=electron&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/electron.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-<a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=mysql&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/mysql.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=firebasel&sort= > <img width ='32px' src ='https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=appwrite&sort= > <img width ='32px' src ='https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-
+<a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/nginx.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/svelte.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 </br>
 </br> 
 </br>
