@@ -16,6 +16,8 @@
 
 </br>
 
+
+
 <h2> Languages and Frameworks I use: </h2>
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=python&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/python.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=reactjs&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/reactjs.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -27,6 +29,7 @@
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=appwrite&sort= > <img width ='32px' src ='https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/nginx.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/svelte.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/haskell.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 </br>
 </br> 
 </br>
