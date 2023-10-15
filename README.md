@@ -1,5 +1,5 @@
 
-<h1> Hello < Developers/ >! </h1>
+<h1> Hello! </h1>
 
 </br>
 
@@ -9,10 +9,10 @@
 - 🌱 I’m currently learning SvelteKit.
  
  
-- 👨‍💻 I first started coding 10 years ago in Python.
+- 👨‍💻 I first started coding 12 years ago in Python.
  
 
-- 🎓I am Studying Software Engineering (bEng).
+- 🎓 I'm studying 2nd year Software Engineering (bEng).
 
 </br>
 
