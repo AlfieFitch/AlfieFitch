@@ -18,7 +18,7 @@
 
 
 
-<h2> Languages and Frameworks I use: </h2>
+<h2> Languages, Frameworks and Technologies I use: </h2>
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=python&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/python.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=reactjs&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/reactjs.svg'>   </a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=javascript&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/javascript.svg'>   </a> &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp
@@ -30,6 +30,8 @@
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/nginx.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/svelte.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/haskell.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='hhttps://www.vectorlogo.zone/logos/oracle/oracle-icon.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 </br>
 </br> 
 </br>
