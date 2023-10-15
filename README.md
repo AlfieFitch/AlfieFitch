@@ -31,7 +31,7 @@
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/svelte.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/haskell.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-<a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='hhttps://www.vectorlogo.zone/logos/oracle/oracle-icon.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=nginx&sort= > <img width ='32px' src ='https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 </br>
 </br> 
 </br>
