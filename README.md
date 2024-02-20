@@ -32,6 +32,7 @@
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=haskell&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/haskell.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=cloudflare&sort= > <img width ='32px' src ='https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=oracle&sort= > <img width ='32px' src ='https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</br>
 <a href= https://github.com/AlfieFitch?tab=repositories&q=&type=&language=typescript&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/typescript.svg'></a>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 </br>
 </br> 
